@@ -1,0 +1,53 @@
+{
+  "format": 1,
+  "restore": {
+    "\\\\fs-058\\studuser$\\Gr11\\z.mitchell1\\My Games\\Terraria\\ModLoader\\Mod Sources\\CZPro\\CZPro.csproj": {}
+  },
+  "projects": {
+    "\\\\fs-058\\studuser$\\Gr11\\z.mitchell1\\My Games\\Terraria\\ModLoader\\Mod Sources\\CZPro\\CZPro.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "\\\\fs-058\\studuser$\\Gr11\\z.mitchell1\\My Games\\Terraria\\ModLoader\\Mod Sources\\CZPro\\CZPro.csproj",
+        "projectName": "CZPro",
+        "projectPath": "\\\\fs-058\\studuser$\\Gr11\\z.mitchell1\\My Games\\Terraria\\ModLoader\\Mod Sources\\CZPro\\CZPro.csproj",
+        "packagesPath": "C:\\Users\\z.mitchell1\\.nuget\\packages\\",
+        "outputPath": "\\\\fs-058\\studuser$\\Gr11\\z.mitchell1\\My Games\\Terraria\\ModLoader\\Mod Sources\\CZPro\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\z.mitchell1\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net45"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net45": {
+            "targetAlias": "net45",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net45": {
+          "targetAlias": "net45",
+          "dependencies": {
+            "tModLoader.CodeAssist": {
+              "target": "Package",
+              "version": "[0.1.*, )"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

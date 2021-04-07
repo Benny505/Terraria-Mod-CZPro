@@ -1,0 +1,3 @@
+displayName = CZPro
+author = CZ
+version = 0.1
