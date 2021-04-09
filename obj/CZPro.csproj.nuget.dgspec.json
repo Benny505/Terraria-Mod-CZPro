@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "\\\\fs-058\\studuser$\\Gr11\\z.mitchell1\\My Games\\Terraria\\ModLoader\\Mod Sources\\CZPro\\CZPro.csproj": {}
+    "\\\\fs-058\\studuser$\\Gr11\\c.mitchell14\\My Games\\Terraria\\ModLoader\\Mod Sources\\CZPro\\CZPro.csproj": {}
   },
   "projects": {
-    "\\\\fs-058\\studuser$\\Gr11\\z.mitchell1\\My Games\\Terraria\\ModLoader\\Mod Sources\\CZPro\\CZPro.csproj": {
+    "\\\\fs-058\\studuser$\\Gr11\\c.mitchell14\\My Games\\Terraria\\ModLoader\\Mod Sources\\CZPro\\CZPro.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "\\\\fs-058\\studuser$\\Gr11\\z.mitchell1\\My Games\\Terraria\\ModLoader\\Mod Sources\\CZPro\\CZPro.csproj",
+        "projectUniqueName": "\\\\fs-058\\studuser$\\Gr11\\c.mitchell14\\My Games\\Terraria\\ModLoader\\Mod Sources\\CZPro\\CZPro.csproj",
         "projectName": "CZPro",
-        "projectPath": "\\\\fs-058\\studuser$\\Gr11\\z.mitchell1\\My Games\\Terraria\\ModLoader\\Mod Sources\\CZPro\\CZPro.csproj",
-        "packagesPath": "C:\\Users\\z.mitchell1\\.nuget\\packages\\",
-        "outputPath": "\\\\fs-058\\studuser$\\Gr11\\z.mitchell1\\My Games\\Terraria\\ModLoader\\Mod Sources\\CZPro\\obj\\",
+        "projectPath": "\\\\fs-058\\studuser$\\Gr11\\c.mitchell14\\My Games\\Terraria\\ModLoader\\Mod Sources\\CZPro\\CZPro.csproj",
+        "packagesPath": "C:\\Users\\c.mitchell14\\.nuget\\packages\\",
+        "outputPath": "\\\\fs-058\\studuser$\\Gr11\\c.mitchell14\\My Games\\Terraria\\ModLoader\\Mod Sources\\CZPro\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\z.mitchell1\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\c.mitchell14\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
