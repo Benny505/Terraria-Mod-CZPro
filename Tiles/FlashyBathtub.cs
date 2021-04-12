@@ -22,8 +22,10 @@ namespace CZPro.Tiles
 			TileObjectData.newTile.UsesCustomCanPlace = true;
 			TileID.Sets.HasOutlines[Type] = true;
 			TileObjectData.newTile.CopyFrom(TileObjectData.Style2x1);
-			TileObjectData.newTile.Origin = new Point16(1, 0);
-			TileObjectData.newTile.CoordinateHeights = new[] { 16 };
+			TileObjectData.newTile.Width = 6;
+			TileObjectData.newTile.Height = 3;
+			TileObjectData.newTile.Origin = new Point16(1, 1);
+			TileObjectData.newTile.CoordinateHeights = new[] { 16, 16, 16 };
 			//TileObjectData.newTile.HookCheck = new PlacementHook(new Func<int, int, int, int, int, int>(Chest.FindEmptyChest), -1, 0, true);
 			//TileObjectData.newTile.HookPostPlaceMyPlayer = new PlacementHook(new Func<int, int, int, int, int, int>(Chest.AfterPlacement_Hook), -1, 0, false);
 			//TileObjectData.newTile.AnchorInvalidTiles = new[] { 127 };
@@ -39,6 +41,16 @@ namespace CZPro.Tiles
 			//AddMapEntry(new Color(0, 141, 63), name, MapChestName);
 			disableSmartCursor = true;
 			drop = ModContent.ItemType<Items.FlashyBathtub>();
+			animationFrameHeight = 54;
+		}
+
+		public override void AnimateTile(ref int frame, ref int frameCounter)
+		{
+			if (++frameCounter >= 9)
+			{
+				frameCounter = 0;
+				frame = ++frame % 4;
+			}
 		}
 	}
 }
