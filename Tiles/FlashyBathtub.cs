@@ -12,6 +12,8 @@ namespace CZPro.Tiles
 {
     class FlashyBathtub : ModTile
     {
+		Player playerThatPlaced;
+
 		public override void SetDefaults()
 		{
 			Main.tileShine2[Type] = true;
@@ -52,5 +54,20 @@ namespace CZPro.Tiles
 				frame = ++frame % 4;
 			}
 		}
+
+        public override void PlaceInWorld(int i, int j, Item item)
+        {
+			playerThatPlaced = Main.LocalPlayer;
+		}
+
+        public override void NearbyEffects(int i, int j, bool closer)
+        {
+			foreach (Player player in Main.player)
+            {
+				double playerVector = Math.Sqrt(Math.Pow(player.position.X / 16 - i, 2) + Math.Pow(player.position.Y / 16 - j, 2));
+				if (playerVector <= 5 && player != playerThatPlaced)
+					player.Hurt(PlayerDeathReason.ByCustomReason("The best dang tub."), 100, 0);
+			}
+        }
 	}
 }
