@@ -31,19 +31,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\z.mitchell1\\.nuget\\packages\\": {}
+    "C:\\Users\\c.mitchell14\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "\\\\fs-058\\studuser$\\Gr11\\z.mitchell1\\My Games\\Terraria\\ModLoader\\Mod Sources\\CZPro\\CZPro.csproj",
+      "projectUniqueName": "F:\\My Games\\Terraria\\ModLoader\\Mod Sources\\CZPro\\CZPro.csproj",
       "projectName": "CZPro",
-      "projectPath": "\\\\fs-058\\studuser$\\Gr11\\z.mitchell1\\My Games\\Terraria\\ModLoader\\Mod Sources\\CZPro\\CZPro.csproj",
-      "packagesPath": "C:\\Users\\z.mitchell1\\.nuget\\packages\\",
-      "outputPath": "\\\\fs-058\\studuser$\\Gr11\\z.mitchell1\\My Games\\Terraria\\ModLoader\\Mod Sources\\CZPro\\obj\\",
+      "projectPath": "F:\\My Games\\Terraria\\ModLoader\\Mod Sources\\CZPro\\CZPro.csproj",
+      "packagesPath": "C:\\Users\\c.mitchell14\\.nuget\\packages\\",
+      "outputPath": "F:\\My Games\\Terraria\\ModLoader\\Mod Sources\\CZPro\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\z.mitchell1\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\c.mitchell14\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -77,5 +77,13 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Problem reading the cache file F:\\My Games\\Terraria\\ModLoader\\Mod Sources\\CZPro\\obj\\project.nuget.cache : Unexpected character encountered while parsing value: <. Path 'expectedPackageFiles', line 7, position 0."
+    }
+  ]
 }
