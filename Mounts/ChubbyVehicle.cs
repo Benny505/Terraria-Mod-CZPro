@@ -67,5 +67,18 @@ namespace CZPro.Mounts
 			mountData.textureHeight = mountData.backTexture.Height;
 		}
 
+        public override void UseAbility(Player player, Vector2 mousePosition, bool toggleOn)
+        {
+			for (int i = 0; i < Main.player.Length; i++)
+			{
+				double closnessX = Main.player[i].position.X - Main.LocalPlayer.position.X;
+				double closnessY = Main.player[i].position.Y - Main.LocalPlayer.position.Y - 13;
+				if(i > 0 && closnessX < 16 && closnessY < 16)
+                {
+					Main.player[i].Hurt(PlayerDeathReason.ByCustomReason(Main.player[i] + "was flattened by " + Main.LocalPlayer + " in the chubby vehicle"), 100, 1);
+                }
+			}
+        }
+
     }
 }

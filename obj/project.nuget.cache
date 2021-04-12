@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "qu0ktWcm+sAFbiFQB1cb7CTmJ+aDrqZc6TyZU154zfycFlM1HyR9PGi/jQLPxagcLqnndeqZcDG0YcjhrCGdtA==",
+  "dgSpecHash": "1scloQs7kUtPMPl7vI5DsDU61QkmlQPGd5z3p/TaE1NlPuL8IVWhg7PVzZNCH4kqqxDa4mFEOkfMGkHTbYRo3g==",
   "success": true,
-  "projectFilePath": "\\\\fs-058\\studuser$\\Gr11\\c.mitchell14\\My Games\\Terraria\\ModLoader\\Mod Sources\\CZPro\\CZPro.csproj",
+  "projectFilePath": "F:\\My Games\\Terraria\\ModLoader\\Mod Sources\\CZPro\\CZPro.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\c.mitchell14\\.nuget\\packages\\tmodloader.codeassist\\0.1.2\\tmodloader.codeassist.0.1.2.nupkg.sha512"
   ],
