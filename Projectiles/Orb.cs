@@ -16,29 +16,33 @@ namespace CZPro.Projectiles
             projectile.width = 20;
             projectile.height = 20;
             projectile.timeLeft = 10000;
-            projectile.penetrate = 10;
             projectile.light = 3f;
-            projectile.damage = 100;
+            // projectile.damage = 100;
         }
 
         public override void AI()
         {
             NPC target = null;
+            var targetFound = false;
             for (int i = 0; i < Main.npc.Length; i++)
             {
                 target = Main.npc[i];
-                if (!target.friendly && Math.Abs(target.position.X - Main.player[0].position.X) <= 300 && Math.Abs(target.position.Y - Main.player[0].position.Y) <= 300)
+                if (!target.friendly && target.active && Math.Abs(target.position.X - Main.player[0].position.X) <= 300 && Math.Abs(target.position.Y - Main.player[0].position.Y) <= 300)
+                {
+                    targetFound = true;
                     break;
+                }
             }
-
+            if (!targetFound)
+                return;
             if (!target.friendly && Math.Abs(target.position.X - Main.player[0].position.X) <= 300 && Math.Abs(target.position.Y - Main.player[0].position.Y) <= 300)
             {
-                Main.NewText(target, Color.Red);
+                Main.NewText(target, Color.White);
                 float xShoot = 2;
                 float yShoot = 2;
-                float xSign = (target.position.X - projectile.Center.X) / Math.Abs((target.position.X - projectile.Center.X));
-                float ySign = (target.position.Y - projectile.Center.Y) / Math.Abs((target.position.Y - projectile.Center.Y));
-                float slope = (target.position.Y - projectile.Center.Y) / (target.position.X - projectile.Center.X);
+                float xSign = (target.position.X - projectile.Center.X) / Math.Abs(target.position.X - projectile.Center.X);
+                float ySign = (target.position.Y - projectile.Center.Y) / Math.Abs(target.position.Y - projectile.Center.Y);
+                float slope = Math.Abs((target.position.Y - projectile.Center.Y) / (target.position.X - projectile.Center.X));
                 yShoot *= slope;
                 projectile.velocity.X = xShoot * xSign;
                 projectile.velocity.Y = yShoot * ySign;

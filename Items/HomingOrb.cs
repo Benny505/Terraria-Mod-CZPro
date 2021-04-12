@@ -20,6 +20,7 @@ namespace CZPro.Items
 
 		public override void SetDefaults()
 		{
+			item.damage = 100;
 			item.melee = false;
 			item.width = 80;
 			item.height = 80;
