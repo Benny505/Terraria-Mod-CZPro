@@ -62,3 +62,9 @@
 \\fs-058\studuser$\Gr11\z.mitchell1\My Games\Terraria\ModLoader\Mod Sources\Terraria-Mod-CZPro\obj\Debug\net45\CZPro.csproj.CopyComplete
 \\fs-058\studuser$\Gr11\z.mitchell1\My Games\Terraria\ModLoader\Mod Sources\Terraria-Mod-CZPro\obj\Debug\net45\CZPro.dll
 \\fs-058\studuser$\Gr11\z.mitchell1\My Games\Terraria\ModLoader\Mod Sources\Terraria-Mod-CZPro\obj\Debug\net45\CZPro.pdb
+F:\My Games\Terraria\ModLoader\Mod Sources\CZPro\obj\Debug\net45\CZPro.csprojAssemblyReference.cache
+F:\My Games\Terraria\ModLoader\Mod Sources\CZPro\obj\Debug\net45\CZPro.AssemblyInfoInputs.cache
+F:\My Games\Terraria\ModLoader\Mod Sources\CZPro\obj\Debug\net45\CZPro.AssemblyInfo.cs
+F:\My Games\Terraria\ModLoader\Mod Sources\CZPro\obj\Debug\net45\CZPro.csproj.CoreCompileInputs.cache
+F:\My Games\Terraria\ModLoader\Mod Sources\CZPro\obj\Debug\net45\CZPro.dll
+F:\My Games\Terraria\ModLoader\Mod Sources\CZPro\obj\Debug\net45\CZPro.pdb

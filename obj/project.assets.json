@@ -77,13 +77,5 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
       }
     }
-  },
-  "logs": [
-    {
-      "code": "Undefined",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Problem reading the cache file F:\\My Games\\Terraria\\ModLoader\\Mod Sources\\CZPro\\obj\\project.nuget.cache : Unexpected character encountered while parsing value: <. Path 'expectedPackageFiles', line 7, position 0."
-    }
-  ]
+  }
 }
